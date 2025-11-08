@@ -24,7 +24,7 @@ st.header("Admin dashboard")
 col1,col2,col3,col4 = st.columns(4)
 
 with col1:
-    st.metric(label="Doanh thu hôm nay",value="12,5 M",delta="+ 5%")
+    st.metric(label="Doanh thu hôm nay",value="15,5 M",delta="+ 5%")
 with col2:
     st.metric(label="Người dùng mới",value="327",delta="+ 12.5%")
 with col3:
