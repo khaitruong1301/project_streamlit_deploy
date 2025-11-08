@@ -12,6 +12,7 @@ st.set_page_config(layout="wide")
 
 #Sidebar
 st.sidebar.header("Menu")
+st.sidebar.header("Menu - Admin")
 st.sidebar.page_link("app.py",label="Điều hướng")
 st.sidebar.page_link("pages/bao_cao.py",label="Báo cáo")
 st.sidebar.page_link("pages/cai_dat.py",label="Cài đặt")
